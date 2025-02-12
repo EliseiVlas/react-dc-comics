@@ -1,18 +1,67 @@
+/* modifiche generali */
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: open sans;
 }
+
+
+/* modifiche header */
 header{
   width: 100%;
-  height: 16vh;
-  background-color: aqua;
+  height: 15vh;
+  /* background-color: aqua; */
   display: flex;
   justify-content: center;
 }
 .container-header{
   width: 70%;
-  height: 60%;
-  background-color: black;
+  height: 100%;
+  /* background-color: burlywood; */
   display: flex;
+  justify-content: space-between;
+}
+header ul{
+  display: flex;
+  font-size: 12px;
+  list-style: none;
+  /* background-color: aqua; */
+  height: 100%;
+}
+header li{
+  display: flex;
+  padding: 0px 8px;
+  height: 100%;
+  align-items:center;
+}
+header li:hover{
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+header img{
+  height: 70%;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+/* modifiche main */
+.content-main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(31, 31, 31);
+}
+main span{
+  color: white;
+  font-size: 24px;
+}
+main article{
+  display: flex;
+  width: 70%;
+  height: 100%;
+  align-items: center;
 }
