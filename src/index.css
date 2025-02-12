@@ -10,7 +10,7 @@
 /* modifiche header */
 header{
   width: 100%;
-  height: 15vh;
+  height: 13vh;
   /* background-color: aqua; */
   display: flex;
   justify-content: center;
@@ -77,6 +77,8 @@ main article{
   background-color: rgb(18, 140, 253);
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 .baner-main div{
   width: 70%;
@@ -98,4 +100,81 @@ main article{
 }
 .visa img{
   height: 25%;
+}
+
+/* modifica footer */
+
+/* modifica content footer */
+.content-footer{
+  width: 100%;
+  height: 50vh;
+  background-image: url(./public/footer-bg.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+.comics{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.comics2{
+  display: flex;
+  gap: 30px;
+  color: white;
+  padding-top: 10px;
+}
+h3{
+  padding: 14px 0px;
+}
+.comics2 li{
+  list-style: none;
+  color: rgb(175, 174, 174);
+  padding: 5px 0px;
+  font-size: 12px;
+}
+.comics img{
+  height: 125%;
+}
+.dc-foto{
+  margin-top: -100px;
+  margin-bottom: 30px;
+}
+
+/* modifica banner footer */
+
+.banner-footer{
+  width: 100%;
+  height: 13vh;
+  background-color: rgb(77, 77, 77);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.footer{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.social a{
+  color: rgb(39, 114, 255);
+  font-weight: bold;
+  font-size: 17px;
+}
+.sign a{
+  border: 3px solid rgb(20, 100, 250);
+  padding: 5px;
 }
