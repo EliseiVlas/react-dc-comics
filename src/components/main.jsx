@@ -6,7 +6,7 @@ export default function Main() {
     <main>
         <div className="content-main">
             <article>
-            <span>-- Contetnt goes here --</span>
+            <span>-- Content goes here --</span>
             </article>
         </div>
              <BanerMain />

@@ -30,13 +30,16 @@ header ul{
   height: 100%;
 }
 header li{
+  width: 80px;
   display: flex;
+  justify-content: center;
   padding: 0px 8px;
   height: 100%;
   align-items:center;
   cursor: pointer;
   font-weight: bold;
 }
+.active,
 header li:hover{
   color: blue;
   border-bottom: 2px solid blue;
@@ -48,6 +51,7 @@ header img{
   display: flex;
   align-items: center;
 }
+
 
 /* modifiche main */
 
@@ -176,5 +180,5 @@ a{
 }
 .sign a{
   border: 3px solid rgb(20, 100, 250);
-  padding: 5px;
+  padding: 10px;
 }
